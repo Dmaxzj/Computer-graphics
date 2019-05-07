@@ -62,7 +62,7 @@ Gouraud shading是在顶点着色器通过phong光照模型计算顶点的颜色
 
 * gouraud shading
 
-![1557214577002](.\gouraud_shading)
+![1557214577002](/gouraud_shading.png)
 
 可以看出phong shading得到的光照更加真实, 尤其是高光效果. 而gouraud shading效果也不错, 不过因为是通过顶点插值得到的光照, 所以这里的高光被插值平铺到了上表面上, 产生了不真实感.
 
@@ -114,7 +114,7 @@ if (isPhongShading) {
 
 #### 效果
 
-![1557214893795](.\gui)
+![1557214893795](gui.png)
 
 ## Bonus: 
 
@@ -145,4 +145,6 @@ lightProgram.setMat4(model, "model");
 cubeProgram.setVec3(lightPosition, "lightPosition");
 ```
 
-#### 效果![moving](.\moving.gif)
+效果
+
+![moving](/moving.gif)
