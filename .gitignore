@@ -1,3 +1,7 @@
 **/.vs
 **/Debug
 *.log
+/thirdlibraries
+**/example_glfw_opengl3
+/Hw2
+/Hw2_

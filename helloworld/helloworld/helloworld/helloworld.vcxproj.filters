@@ -16,15 +16,21 @@
     <Filter Include="shader">
       <UniqueIdentifier>{f6e749da-ecd5-49e3-bfd7-e7f3d10c0d16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{b56ecd72-a998-4709-9e59-3a2fa5cd686b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\glad\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,5 +54,16 @@
     <None Include="shader.fs">
       <Filter>shader</Filter>
     </None>
+    <None Include="texture.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="texture.vs">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\container.jpg">
+      <Filter>resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>
