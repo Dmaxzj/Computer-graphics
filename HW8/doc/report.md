@@ -210,4 +210,4 @@ if (glfwGetKey(window, GLFW_KEY_Z) == GLFW_PRESS) {
 
 ![bonus](bonus.png)
 
-![bonus](bezier.gif)
+![bonus](Bezier.gif)
